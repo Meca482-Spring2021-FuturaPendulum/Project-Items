@@ -31,7 +31,7 @@ inverted pendulum that can rotate freely about a horizontal axis. The pendulum a
 drives a motor to rotate an arm positioned 90° relative to the pendulum to keep it balanced upright. The project's goal is to create a control system algorithm in Matlab that can 
 model this both linearly and nonlinearly in CoppeliaSim. An example of a Furuta/rotary pendulum manufactured by Quanser is shown below in Figure 1.
 
-![fig 1](https://user-images.githubusercontent.com/84546893/119276584-c7d23a80-bbcf-11eb-8dbb-872fc528ce85.png)
+<div style="text-align:center"><img src="![fig 1](https://user-images.githubusercontent.com/84546893/119276584-c7d23a80-bbcf-11eb-8dbb-872fc528ce85.png)" /></div>
 
 **Figure 1.** Example of Furuta Pendulum (QUANSER QUBE)
 
