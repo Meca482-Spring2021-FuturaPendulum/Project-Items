@@ -3,15 +3,15 @@
 
 <center> Andres Sanchez
 
-<center>Cody Breuninger
+Cody Breuninger
 
 <center>Jimmie Whitton
 
-<center>Joe Overcashier
+Joe Overcashier
 
 <center>Max Rohde
 
-<center>Mitchell Cabral
+Mitchell Cabral
 
 # Table of Contents
 **1. Introduction**
