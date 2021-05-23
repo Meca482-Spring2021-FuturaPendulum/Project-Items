@@ -3,7 +3,7 @@
 
 <center> Andres Sanchez
 
-Cody Breuninger
+<center>Cody Breuninger
 
 <center>Jimmie Whitton
 
