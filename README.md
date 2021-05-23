@@ -1,13 +1,14 @@
 # Furuta Pendulum
 **Group 8**
 
-<center> Andres Sanchez
-<no space>
+Andres Sanchez
+
 Cody Breuninger
-<center>Jimmie Whitton
+
+Jimmie Whitton
 
 Joe Overcashier
-<center>Max Rohde
+Max Rohde
 
 Mitchell Cabral
 
@@ -73,7 +74,7 @@ From Eq.(11), the first row of the matrix equates to Eq.(12.1), simplified in Eq
 
 ![eq 12 eq 13](https://user-images.githubusercontent.com/84546893/119276877-5a270e00-bbd1-11eb-83c3-04c572ab4f45.png)
 
-From Eq.(5),  x1= x3,  x2=x4where x can be substituted for each variable: theta, alpha, d(theta), and d(alpha). From these the matrices A and B can be found. In Eq.(14) and Eq.(15)  x3and  x4are described.
+From Eq.(5),  x1'= x3,  x2'=x4 where x can be substituted for each variable: 𝜭, 𝜶, 𝜭', and 𝜶'. From these the matrices A and B can be found. In Eq.(14) and Eq.(15) x3' and  x4' are described.
 
 ![eq 14 eq 15](https://user-images.githubusercontent.com/84546893/119276911-86428f00-bbd1-11eb-9710-dbecc135b3e6.png)
 
