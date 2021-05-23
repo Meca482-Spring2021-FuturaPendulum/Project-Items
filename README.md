@@ -60,7 +60,13 @@ From these equations A and B can be described from Eq.(3) below where Eq.(16) re
 
 ![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119276918-8e9aca00-bbd1-11eb-839b-49d308a076de.png)
 
+# Controller Design and Simulation
 
+# Appenfix A: Simulation Code
+
+# References
+
+J. Á. Acosta, "Furuta's Pendulum: A Conservative Nonlinear Model for Theory and Practise", Mathematical Problems in Engineering, vol. 2010, Article ID 742894, 29 pages, 2010. https://doi.org/10.1155/2010/742894
 
 
 
