@@ -83,6 +83,9 @@ From these equations A and B can be described from Eq.(3) below where Eq.(16) re
 ![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119276918-8e9aca00-bbd1-11eb-839b-49d308a076de.png)
 
 # Controller Design and Simulation
+![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
+![Swing-Up](https://user-images.githubusercontent.com/84546893/119280296-9e240e00-bbe5-11eb-8675-feb13c2757b8.PNG)
+
 
 # Appendix A: Simulation Code
 g = 9.81;
