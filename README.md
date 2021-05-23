@@ -29,9 +29,24 @@ The non-linear equations to represent the motion of the pendulum, Eq.(1) and Eq.
 ![eq 1 eq 2](https://user-images.githubusercontent.com/84546893/119276696-61015100-bbd0-11eb-9c57-1db25746f288.png)
 
 Eq.(1) and Eq.(2) were linearized to develop a state-space model for the pendulum. The state-space equations are defined in Eq.(3) and Eq.(4).
+
 ![eq 3 eq 4](https://user-images.githubusercontent.com/84546893/119276749-afaeeb00-bbd0-11eb-8b05-4f82e3e8e89a.png)
 
 In these equations, x represents the state, y represents the output, and u represents the control input. The state and output for the Furuta pendulum are defined in Eq.(5) and Eq.(6).
+
 ![eq 5 eq 6](https://user-images.githubusercontent.com/84546893/119276790-e422a700-bbd0-11eb-8e15-1392640b17b1.png)
+
+To linearize Eq.(1) and Eq.(2), it is assumed that all initial conditions for all the variables, 0, 0, 0,and 0, are zero. With these conditions, Eq.(7) and Eq.(8) are derived.
+
+![eq 7 eq 8](https://user-images.githubusercontent.com/84546893/119276816-0b797400-bbd1-11eb-998f-890dc13b3e73.png)
+
+Using Eq.(7) and Eq.(8), the following matrix,Eq.(9) is created where the determinant of the 2x2 matrix is shown in Eq.(10.1) with Eq.(10.2) being its simplification. 
+
+![eq 9 eq 10](https://user-images.githubusercontent.com/84546893/119276837-28ae4280-bbd1-11eb-9f8b-cc0399337ea7.png)
+
+Next, the angular acceleration of the pendulum and rotary arm are solved for in Eq.(11).
+
+![eq 11](https://user-images.githubusercontent.com/84546893/119276849-349a0480-bbd1-11eb-8bf3-24dbe5fdc262.png)
+
 
 
