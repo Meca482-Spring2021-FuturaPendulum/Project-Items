@@ -1,4 +1,5 @@
-# pendulum 
+# Furuta Pendulum
+Rotary inverted pendulum framework created for MECA 482, Control System Design, at CSU Chico
 
 **Introduction**
 The Furuta Pendulum was invented in 1992 at the Tokyo Institute of Technology by Katsuhisa Furuta. It is composed of an arm which can rotate around a vertical axis to support an 
