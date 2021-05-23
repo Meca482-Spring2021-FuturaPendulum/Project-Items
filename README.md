@@ -48,5 +48,19 @@ Next, the angular acceleration of the pendulum and rotary arm are solved for in 
 
 ![eq 11](https://user-images.githubusercontent.com/84546893/119276849-349a0480-bbd1-11eb-8bf3-24dbe5fdc262.png)
 
+From Eq.(11), the first row of the matrix equates to Eq.(12.1), simplified in Eq.(12.2), while the second is described in Eq.(13.1) and simplified in Eq.(13.2).
+
+![eq 12 eq 13](https://user-images.githubusercontent.com/84546893/119276877-5a270e00-bbd1-11eb-83c3-04c572ab4f45.png)
+
+From Eq.(5),  x1= x3,  x2=x4where x can be substituted for each variable: , ,  ,and  . From these the matrices A and B can be found. In Eq.(14) and Eq.(15)  x3and  x4are described.
+
+![eq 14 eq 15](https://user-images.githubusercontent.com/84546893/119276911-86428f00-bbd1-11eb-9710-dbecc135b3e6.png)
+
+From these equations A and B can be described from Eq.(3) below where Eq.(16) represents the A matrix and Eq.(17) represents the B matrix.
+
+![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119276918-8e9aca00-bbd1-11eb-839b-49d308a076de.png)
+
+
+
 
 
