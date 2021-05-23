@@ -1,11 +1,28 @@
 # Furuta Pendulum
 **Group 8**
-Joe Overcashier
-Cody Breuninger
-Jimmie Whitton
-Max Rohde
+
 Andres Sanchez
+
+Cody Breuninger
+
+Jimmie Whitton
+
+Joe Overcashier
+
+Max Rohde
+
 Mitchell Cabral
+
+# Table of Contents
+**1. Introduction**
+
+**2. Modeling**
+
+**3. Controller Design and Simulation**
+
+**4. Appendix A: MATLab Code**
+
+**5. References**
 
 # **Introduction**
 
@@ -68,7 +85,7 @@ From these equations A and B can be described from Eq.(3) below where Eq.(16) re
 
 # Controller Design and Simulation
 
-# Appenfix A: Simulation Code
+# Appendix A: Simulation Code
 
 # References
 
