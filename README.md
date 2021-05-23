@@ -47,7 +47,7 @@ The non-linear equations to represent the motion of the pendulum, Eq.(1) and Eq.
 
 ![fig 2](https://user-images.githubusercontent.com/84546893/119276700-66f73200-bbd0-11eb-9581-d03918bab300.png)
 
-**Figure. 2** Pendulum Direction Conventions
+**Figure 2.** Pendulum Direction Conventions
 
 ![eq 1 eq 2](https://user-images.githubusercontent.com/84546893/119276696-61015100-bbd0-11eb-9c57-1db25746f288.png)
 
