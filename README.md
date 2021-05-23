@@ -1,17 +1,10 @@
 # Furuta Pendulum
-Rotary inverted pendulum framework created for MECA 482, Control System Design, at CSU Chico
-Group 8:
-
-Andres Sanchez
-
-Cody Breuninger
-
-Jimmie Whitton
-
+**Group 8**
 Joe Overcashier
-
+Cody Breuninger
+Jimmie Whitton
 Max Rohde
-
+Andres Sanchez
 Mitchell Cabral
 
 # **Introduction**
