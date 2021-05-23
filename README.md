@@ -81,6 +81,8 @@ From Eq.(5),  x1'= x3,  x2'=x4 where x can be substituted for each variable: ùú
 From these equations A and B can be described from Eq.(3) below where Eq.(16) represents the A matrix and Eq.(17) represents the B matrix.
 
 ![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119276918-8e9aca00-bbd1-11eb-839b-49d308a076de.png)
+# Calibration
+There is no hardware available for the system, therefore calibration is not needed.
 
 # Controller Design and Simulation
 ![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
