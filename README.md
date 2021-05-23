@@ -1,7 +1,7 @@
 # Furuta Pendulum
 **Group 8**
 
-Andres Sanchez
+<center> Andres Sanchez
 
 Cody Breuninger
 
