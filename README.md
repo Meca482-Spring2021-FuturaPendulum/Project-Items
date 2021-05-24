@@ -145,7 +145,7 @@ From these equations A and B can be described from Eq.(3) below where Eq.(16) re
 There is no hardware available for the system, therefore calibration is not needed.
 
 # Controller Design and Simulation
-Using Simulink, the block diagrams in Figure 3 and Figure 4 are created to describe the system during balance and swing-up motion.
+Using Simulink, the block diagrams in Figure 3 and Figure 4 are created to describe the system during balance and swing-up control.
 
 
 <p align = "center"
@@ -160,14 +160,99 @@ Using Simulink, the block diagrams in Figure 3 and Figure 4 are created to descr
    
 <p align = "center"
 
-![Swing-Up](https://user-images.githubusercontent.com/84546893/119280296-9e240e00-bbe5-11eb-8675-feb13c2757b8.PNG)
+![1_FULL_DIAGRAM_SNIP](https://user-images.githubusercontent.com/84546893/119297625-38994700-bc10-11eb-974f-9c8778652aff.PNG)
 </p>
 
 <p align = "center"
 
 **Figure 4.** Simulink Swing Block Diagram.
-
 </p>
+<p align = "center"
+   
+![2_SWINGUP_SNIP](https://user-images.githubusercontent.com/84546893/119298378-c75a9380-bc11-11eb-9331-19b23c1266d5.PNG)
+   
+   </p>
+   <p align = "center"
+
+**Figure 5.**
+</p>
+<p align = "center"
+      
+![4_SMALLBOI](https://user-images.githubusercontent.com/84546893/119298376-c6c1fd00-bc11-11eb-86c2-46ae0dcebe72.PNG)
+</p>
+<p align = "center"
+   
+**Figure 6.**
+</p>
+
+<p align = "center"
+   
+   ![3_ENERGY_BASED_SWINGUP_CONTROL_SNIP](https://user-images.githubusercontent.com/84546893/119298377-c75a9380-bc11-11eb-9d30-93504c1b6599.PNG)
+</p>
+<p align = "center"
+   
+   **Figure 7.**
+   </p>
+   
+After these diagrams were created, graphs to chart the systems simulated voltage, angular displacement, and angular velocity. These three graphs are shown below in Figure 8 - Figure 10.
+
+<p align = "center"
+   
+![simulink_voltageGraph](https://user-images.githubusercontent.com/84546893/119296369-a6903f00-bc0d-11eb-995d-78626c21392f.PNG)
+   </p>
+   
+<p align = "center"
+
+**Figure 8.**
+</p>
+
+<p align = "center"
+   
+   ![simulink_thetaGraph](https://user-images.githubusercontent.com/84546893/119296346-9e380400-bc0d-11eb-8616-f64e80749ea4.PNG)
+</p>
+
+<p align = "center"
+
+**Figure 9.**
+</p>
+
+<p align = "center"
+   
+   ![simulink_alphaGraph](https://user-images.githubusercontent.com/84546893/119296379-aabc5c80-bc0d-11eb-9c45-50335ed3eaf1.PNG)
+</p>
+<p align = "center"
+
+**Figure 10.**
+</p>
+
+In MATLab, functions shown in Appendix A were used to solve for the outputed torque, zeros, and roots of the system. These are shown in Figure 11 - Figure 13.
+<p align = "center"
+   
+   ![Torque Output](https://user-images.githubusercontent.com/84546893/119296389-ae4fe380-bc0d-11eb-92c7-bd7319f963b1.PNG)
+</p>
+<p align = "center"
+
+**Figure 11.**
+</p>
+
+<p align = "center"
+   
+   ![Pole Zero Map](https://user-images.githubusercontent.com/84546893/119296397-b1e36a80-bc0d-11eb-8227-b244454825ff.PNG)
+</p>
+<p align = "center"
+
+**Figure 12.**
+</p>
+
+<p align = "center"
+   
+   ![Root Locus](https://user-images.githubusercontent.com/84546893/119296407-b576f180-bc0d-11eb-90a1-f8333770d448.PNG)
+</p>
+<p align = "center"
+
+**Figure 13.**
+</p>
+
 
 # Appendix A: Simulation Code
 
