@@ -169,6 +169,8 @@ In this section we will discuss the Simulink controller we attempted to implemen
 </p>
 <p align = "center"
    
+Within the Pendulum Swing up diagram, there were multiple subsystems that needed to be addressed. Below is the Swing up subsystem.
+   
 ![2_SWINGUP_SNIP](https://user-images.githubusercontent.com/84546893/119298378-c75a9380-bc11-11eb-9331-19b23c1266d5.PNG)
    
    </p>
