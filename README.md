@@ -15,11 +15,13 @@ Mitchell Cabral
 
 **2. Modeling**
 
-**3. Controller Design and Simulation**
+**3. Calibration**
 
-**4. Appendix A: MATLab Code**
+**4. Controller Design and Simulation**
 
-**5. References**
+**5 Appendix A: MATLab Code**
+
+**6. References**
 
 # **Introduction**
 
