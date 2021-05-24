@@ -265,7 +265,8 @@ Lastly, we have our designed model of the Furuta Pendulum in CoppeliaSim, shown 
    
    **Figure 14.** Furuta Pendulum CoppeliaSim Model.
    </p>
-
+# Conclusion 
+Though our team felt as if we were on the right track to complete the project, our team was unable to fully connect Coppeliasim to Matlab then to simulink as a full feedback system. The team was able to connect Matlab to Coppelia, however ran into issues when using our simulink diagrams as a controller. With this being said, we were unable to fully complete the project. 
 # Appendix A: Simulation Code
 Refer to Linearization_0.m for complete Matlab code.
 
