@@ -40,13 +40,13 @@ The system is underactuated since it employs only control input and consists of 
 
 ![table 1](https://user-images.githubusercontent.com/84546893/119276655-20093c80-bbd0-11eb-97a4-9fb43ccccc0d.png)
 
-**Table 1.** Furuta Pendulum Parameters
+**Table 1.** Furuta Pendulum Parameters.
 
 The non-linear equations to represent the motion of the pendulum, Eq.(1) and Eq.(2), were derived from the representation that defines the pendulum’s motion shown in Figure 2.
 
 ![fig 2](https://user-images.githubusercontent.com/84546893/119276700-66f73200-bbd0-11eb-9581-d03918bab300.png)
 
-**Figure 2.** Pendulum Direction Conventions
+**Figure 2.** Pendulum Direction Conventions.
 
 ![eq 1 eq 2](https://user-images.githubusercontent.com/84546893/119276696-61015100-bbd0-11eb-9c57-1db25746f288.png)
 
@@ -85,9 +85,12 @@ From these equations A and B can be described from Eq.(3) below where Eq.(16) re
 There is no hardware available for the system, therefore calibration is not needed.
 
 # Controller Design and Simulation
-![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
-![Swing-Up](https://user-images.githubusercontent.com/84546893/119280296-9e240e00-bbe5-11eb-8675-feb13c2757b8.PNG)
+Using Simulink, the block diagrams in Figure 3 and Figure 4 are created to describe the system during balance and swing-up motion.
 
+![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
+**Figure 3.** Simulink Balance Block Diagram.
+![Swing-Up](https://user-images.githubusercontent.com/84546893/119280296-9e240e00-bbe5-11eb-8675-feb13c2757b8.PNG)
+**Figure 4.** Simulink Swing Block Diagram.
 
 # Appendix A: Simulation Code
 
