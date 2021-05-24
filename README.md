@@ -145,7 +145,7 @@ From these equations A and B can be described from Eq.(3) below where Eq.(16) re
 There is no hardware available for the system, therefore calibration is not needed.
 
 # Controller Design and Simulation
-Using Simulink, the block diagrams in Figure 3 and Figure 4 are created to describe the system during balance and swing-up control.
+In this section we will discuss the Simulink controller we attempted to implement into our simulation design. We have a simulink model for the swing up motion of the pendulum, Figure 4, that also incorporates the balance control of the pendulum, Figure 3, once it is upright. Within the swing up block diagram, we had made extensive additions to the subsystems within the block diagram which we are also including down below which are shown in Figure 5 through Figure 7. 
 
 
 <p align = "center"
