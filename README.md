@@ -1,16 +1,14 @@
-# Furuta Pendulum
-**Group 8**
+# Furuta Pendulum: **Group 8**
 
-Andres Sanchez
+<p align = "center"
 
-Cody Breuninger
-
-Jimmie Whitton
-
-Joe Overcashier
-Max Rohde
-
+Andres Sanchez -
+Cody Breuninger -
+Jimmie Whitton -
+Joe Overcashier -
+Max Rohde -
 Mitchell Cabral
+            </p>
 
 # Table of Contents
 **1. Introduction**
@@ -30,69 +28,146 @@ inverted pendulum that can rotate freely about a horizontal axis. The pendulum a
 drives a motor to rotate an arm positioned 90° relative to the pendulum to keep it balanced upright. The project's goal is to create a control system algorithm in Matlab that can 
 model this both linearly and nonlinearly in CoppeliaSim. An example of a Furuta/rotary pendulum manufactured by Quanser is shown below in Figure 1.
 
-![fig 1](https://user-images.githubusercontent.com/84546893/119276584-c7d23a80-bbcf-11eb-8dbb-872fc528ce85.png)
+<p align = "center"
+   
+   ![fig 1](https://user-images.githubusercontent.com/84546893/119276584-c7d23a80-bbcf-11eb-8dbb-872fc528ce85.png)
 
+   </p>
+
+<p align = "center"
+   
 **Figure 1.** Example of Furuta Pendulum (QUANSER QUBE)
+   
+</p>
 
 # **Modeling**
 
 The system is underactuated since it employs only control input and consists of two degrees of freedom. Only one degree of freedom, the angular position of the rotary arm, 𝜭, is actively controlled. The angular position of the pendulum, 𝜶, is dependent upon the position of the rotary arm and the position of its own center of mass relative to the rotary arm. Table 1 below lists all parameters used in the calculations.
 
-![table 1](https://user-images.githubusercontent.com/84546893/119276655-20093c80-bbd0-11eb-97a4-9fb43ccccc0d.png)
 
-**Table 1.** Furuta Pendulum Parameters.
+<p align = "center"
+   
+   ![table 1](https://user-images.githubusercontent.com/84546893/119276655-20093c80-bbd0-11eb-97a4-9fb43ccccc0d.png)
+
+</p>
+
+
+<p align = "center"
+   
+   **Table 1.** Furuta Pendulum Parameters.
+</p>
 
 The non-linear equations to represent the motion of the pendulum, Eq.(1) and Eq.(2), were derived from the representation that defines the pendulum’s motion shown in Figure 2.
 
-![fig 2](https://user-images.githubusercontent.com/84546893/119276700-66f73200-bbd0-11eb-9581-d03918bab300.png)
 
-**Figure 2.** Pendulum Direction Conventions.
+<p align = "center"
+   
+   ![fig 2](https://user-images.githubusercontent.com/84546893/119276700-66f73200-bbd0-11eb-9581-d03918bab300.png)
+</p>
 
-![eq 1 eq 2](https://user-images.githubusercontent.com/84546893/119276696-61015100-bbd0-11eb-9c57-1db25746f288.png)
+
+<p align = "center"
+   
+   **Figure 2.** Pendulum Direction Conventions.
+</p>
+
+
+<p align = "center"
+   
+   ![eq 1 eq 2](https://user-images.githubusercontent.com/84546893/119276696-61015100-bbd0-11eb-9c57-1db25746f288.png)
+</p>
 
 Eq.(1) and Eq.(2) were linearized to develop a state-space model for the pendulum. The state-space equations are defined in Eq.(3) and Eq.(4).
 
-![eq 3 eq 4](https://user-images.githubusercontent.com/84546893/119276749-afaeeb00-bbd0-11eb-8b05-4f82e3e8e89a.png)
+
+<p align = "center"
+   
+   ![eq 3 eq 4](https://user-images.githubusercontent.com/84546893/119276749-afaeeb00-bbd0-11eb-8b05-4f82e3e8e89a.png)
+</p>
 
 In these equations, x represents the state, y represents the output, and u represents the control input. The state and output for the Furuta pendulum are defined in Eq.(5) and Eq.(6).
 
-![eq 5 eq 6](https://user-images.githubusercontent.com/84546893/119276790-e422a700-bbd0-11eb-8e15-1392640b17b1.png)
+
+<p align = "center"
+   
+   ![eq 5 eq 6](https://user-images.githubusercontent.com/84546893/119276790-e422a700-bbd0-11eb-8e15-1392640b17b1.png)
+</p>
 
 To linearize Eq.(1) and Eq.(2), it is assumed that all initial conditions for all the variables, 0, 0, 0,and 0, are zero. With these conditions, Eq.(7) and Eq.(8) are derived.
 
-![eq 7 eq 8](https://user-images.githubusercontent.com/84546893/119276816-0b797400-bbd1-11eb-998f-890dc13b3e73.png)
+
+<p align = "center"
+   
+   ![eq 7 eq 8](https://user-images.githubusercontent.com/84546893/119276816-0b797400-bbd1-11eb-998f-890dc13b3e73.png)
+</p>
 
 Using Eq.(7) and Eq.(8), the following matrix,Eq.(9) is created where the determinant of the 2x2 matrix is shown in Eq.(10.1) with Eq.(10.2) being its simplification. 
 
-![eq 9 eq 10](https://user-images.githubusercontent.com/84546893/119276837-28ae4280-bbd1-11eb-9f8b-cc0399337ea7.png)
+
+<p align = "center"
+   
+   ![eq 9 eq 10](https://user-images.githubusercontent.com/84546893/119276837-28ae4280-bbd1-11eb-9f8b-cc0399337ea7.png)
+</p>
 
 Next, the angular acceleration of the pendulum and rotary arm are solved for in Eq.(11).
 
-![eq 11](https://user-images.githubusercontent.com/84546893/119276849-349a0480-bbd1-11eb-8bf3-24dbe5fdc262.png)
+
+<p align = "center"
+   
+   ![eq 11](https://user-images.githubusercontent.com/84546893/119276849-349a0480-bbd1-11eb-8bf3-24dbe5fdc262.png)
+</p>
 
 From Eq.(11), the first row of the matrix equates to Eq.(12.1), simplified in Eq.(12.2), while the second is described in Eq.(13.1) and simplified in Eq.(13.2).
 
-![eq 12 eq 13](https://user-images.githubusercontent.com/84546893/119276877-5a270e00-bbd1-11eb-83c3-04c572ab4f45.png)
+
+<p align = "center"
+   
+   ![eq 12 eq 13](https://user-images.githubusercontent.com/84546893/119276877-5a270e00-bbd1-11eb-83c3-04c572ab4f45.png)
+</p>
 
 From Eq.(5),  x1'= x3,  x2'=x4 where x can be substituted for each variable: 𝜭, 𝜶, 𝜭', and 𝜶'. From these the matrices A and B can be found. In Eq.(14) and Eq.(15) x3' and  x4' are described.
 
-![eq 14 eq 15](https://user-images.githubusercontent.com/84546893/119276911-86428f00-bbd1-11eb-9710-dbecc135b3e6.png)
+
+<p align = "center"
+   
+   ![eq 14 eq 15](https://user-images.githubusercontent.com/84546893/119276911-86428f00-bbd1-11eb-9710-dbecc135b3e6.png)
+</p>
 
 From these equations A and B can be described from Eq.(3) below where Eq.(16) represents the A matrix and Eq.(17) represents the B matrix.
 
-![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119276918-8e9aca00-bbd1-11eb-839b-49d308a076de.png)
+
+<p align = "center"
+   
+   ![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119276918-8e9aca00-bbd1-11eb-839b-49d308a076de.png)
+</p>
+
 # Calibration
 There is no hardware available for the system, therefore calibration is not needed.
 
 # Controller Design and Simulation
 Using Simulink, the block diagrams in Figure 3 and Figure 4 are created to describe the system during balance and swing-up motion.
 
-![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
 
+<p align = "center"
+   
+   ![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
+</p>
+
+<p align = "center"
+   
 **Figure 3.** Simulink Balance Block Diagram.
+</p>
+   
+<p align = "center"
+
 ![Swing-Up](https://user-images.githubusercontent.com/84546893/119280296-9e240e00-bbe5-11eb-8675-feb13c2757b8.PNG)
+</p>
+
+<p align = "center"
 
 **Figure 4.** Simulink Swing Block Diagram.
+
+</p>
 
 # Appendix A: Simulation Code
 
