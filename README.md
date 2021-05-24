@@ -88,8 +88,10 @@ There is no hardware available for the system, therefore calibration is not need
 Using Simulink, the block diagrams in Figure 3 and Figure 4 are created to describe the system during balance and swing-up motion.
 
 ![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
+
 **Figure 3.** Simulink Balance Block Diagram.
 ![Swing-Up](https://user-images.githubusercontent.com/84546893/119280296-9e240e00-bbe5-11eb-8675-feb13c2757b8.PNG)
+
 **Figure 4.** Simulink Swing Block Diagram.
 
 # Appendix A: Simulation Code
