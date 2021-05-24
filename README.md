@@ -256,6 +256,16 @@ Using MATLab, the team was able to create three more graphs to show the output t
 **Figure 13.** Root Locus Plot.
 </p>
 
+Lastly, we have our designed model of the Furuta Pendulum in CoppeliaSim, shown in Figure 14. We utilized 3 cylinders which served to be the stand, the rotary arm as well as the pendulum. We also incorporated 2 revolute joints which provided the proper pivots to allow the rotary arm to swivel, and the pendulum to swing from the rotary arm. 
+<p align = "center"
+   
+   ![copella](https://user-images.githubusercontent.com/84546893/119301148-e0197800-bc16-11eb-9867-eb78eee07cc0.png)
+   </p>
+   
+<p align = "center"
+   
+   **Figure 14.** Furuta Pendulum CoppeliaSim Model.
+   </p>
 
 # Appendix A: Simulation Code
 
