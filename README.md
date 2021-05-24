@@ -66,8 +66,6 @@ The non-linear equations to represent the motion of the pendulum, Eq.(1) and Eq.
    
    ![fig 2](https://user-images.githubusercontent.com/84546893/119276700-66f73200-bbd0-11eb-9581-d03918bab300.png)
 </p>
-
-
 <p align = "center"
    
    **Figure 2.** Pendulum Direction Conventions.
@@ -154,7 +152,6 @@ In this section we will discuss the Simulink controller we attempted to implemen
    
    ![Balance](https://user-images.githubusercontent.com/84546893/119280293-995f5a00-bbe5-11eb-881e-9fd553d3ffbe.PNG)
 </p>
-
 <p align = "center"
    
 **Figure 3.** Simulink Balance Block Diagram.
@@ -215,9 +212,8 @@ Along with the Simulink block diagrams we implemented in our project, we also we
    
    ![simulink_thetaGraph](https://user-images.githubusercontent.com/84546893/119296346-9e380400-bc0d-11eb-8616-f64e80749ea4.PNG)
 </p>
-
 <p align = "center"
-
+   
 **Figure 9.** Closed Loop Balance Control Response - Theta
 </p>
 
@@ -226,13 +222,14 @@ Along with the Simulink block diagrams we implemented in our project, we also we
    ![simulink_alphaGraph](https://user-images.githubusercontent.com/84546893/119296379-aabc5c80-bc0d-11eb-9c45-50335ed3eaf1.PNG)
 </p>
 <p align = "center"
-
+   
 **Figure 10.** Closed Loop Balance Control Response - Alpha
 </p>
 
-<p align = "center"
-
 Using MATLab, the team was able to create three more graphs to show the output torque, pole zero map, and root locus plot of the system. Each of these graphs can be seen in Figure 11 through Figure 13.
+
+<p align = "center"
+   
  ![Torque Output`](https://user-images.githubusercontent.com/84546893/119296389-ae4fe380-bc0d-11eb-92c7-bd7319f963b1.PNG)
 </p>
 <p align = "center"
