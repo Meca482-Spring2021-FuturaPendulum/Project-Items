@@ -132,7 +132,7 @@ From Eq.(5),  x1'= x3,  x2'=x4 where x can be substituted for each variable: ğœ
 
 <p align = "center"
    
-   ![eq 14 eq 15](https://user-images.githubusercontent.com/84546893/119276911-86428f00-bbd1-11eb-9710-dbecc135b3e6.png)
+  ![eq 14 eq 15](https://user-images.githubusercontent.com/84546893/119306593-40141c80-bc1f-11eb-9d8d-f5c59ca52fec.png)
 </p>
 
 From these equations A and B can be described from Eq.(3) below where Eq.(16) represents the A matrix and Eq.(17) represents the B matrix.
@@ -140,7 +140,7 @@ From these equations A and B can be described from Eq.(3) below where Eq.(16) re
 
 <p align = "center"
    
-   ![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119276918-8e9aca00-bbd1-11eb-839b-49d308a076de.png)
+   ![eq 16 eq 17](https://user-images.githubusercontent.com/84546893/119306620-473b2a80-bc1f-11eb-81a5-ad68db1c26a0.png)
 </p>
 
 # Calibration
