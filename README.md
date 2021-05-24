@@ -268,6 +268,7 @@ Lastly, we have our designed model of the Furuta Pendulum in CoppeliaSim, shown 
    </p>
 
 # Appendix A: Simulation Code
+Refer to Linearization_0.m for complete Matlab code.
 
 # References
 
