@@ -169,34 +169,35 @@ In this section we will discuss the Simulink controller we attempted to implemen
 </p>
 <p align = "center"
    
-Within the Pendulum Swing up diagram, there were multiple subsystems that needed to be addressed. Below is the Swing up subsystem.
+Within the Pendulum Swing up diagram, there were multiple subsystems that needed to be addressed. Figure 5 shows the Swing up subsystem.
    
 ![2_SWINGUP_SNIP](https://user-images.githubusercontent.com/84546893/119298378-c75a9380-bc11-11eb-9331-19b23c1266d5.PNG)
    
    </p>
    <p align = "center"
 
-**Figure 5.**
+**Figure 5.** Swing-up Subsystem Diagram.
 </p>
+Within the Swing Up subsystem, the Energy-Based Swing up Control subsystem was implemented which can be seen in Figure 6. 
 <p align = "center"
       
-![4_SMALLBOI](https://user-images.githubusercontent.com/84546893/119298376-c6c1fd00-bc11-11eb-86c2-46ae0dcebe72.PNG)
+![3_ENERGY_BASED_SWINGUP_CONTROL_SNIP](https://user-images.githubusercontent.com/84546893/119298377-c75a9380-bc11-11eb-9d30-93504c1b6599.PNG)
 </p>
 <p align = "center"
    
-**Figure 6.**
+**Figure 6.** Energy-Based Swing-up Control Subsystem.
 </p>
-
+Lastly, within the Energy Based Swing Up Control subsystem we have our last substem, which is the Pendulum Energy Subsystem shown in Figure 7.
 <p align = "center"
    
-   ![3_ENERGY_BASED_SWINGUP_CONTROL_SNIP](https://user-images.githubusercontent.com/84546893/119298377-c75a9380-bc11-11eb-9d30-93504c1b6599.PNG)
+   ![4_SMALLBOI](https://user-images.githubusercontent.com/84546893/119299663-3507bf00-bc14-11eb-9b0f-4f8033cc4367.PNG)
 </p>
 <p align = "center"
    
-   **Figure 7.**
+   **Figure 7.** Pendulum Energy Subsystem.
    </p>
    
-After these diagrams were created, graphs to chart the systems simulated voltage, angular displacement, and angular velocity. These three graphs are shown below in Figure 8 - Figure 10.
+Along with the Simulink block diagrams we implemented in our project, we also were able to develop the simulated closed loop balance control response for the voltage, alpha, and theta variables. These are graphed in Figure 8 through Figure 10.
 
 <p align = "center"
    
@@ -205,7 +206,7 @@ After these diagrams were created, graphs to chart the systems simulated voltage
    
 <p align = "center"
 
-**Figure 8.**
+**Figure 8.** Closed Loop Balance Control Response - Voltage
 </p>
 
 <p align = "center"
@@ -215,7 +216,7 @@ After these diagrams were created, graphs to chart the systems simulated voltage
 
 <p align = "center"
 
-**Figure 9.**
+**Figure 9.** Closed Loop Balance Control Response - Theta
 </p>
 
 <p align = "center"
@@ -224,17 +225,17 @@ After these diagrams were created, graphs to chart the systems simulated voltage
 </p>
 <p align = "center"
 
-**Figure 10.**
+**Figure 10.** Closed Loop Balance Control Response - Alpha
 </p>
 
-In MATLab, functions shown in Appendix A were used to solve for the outputed torque, zeros, and roots of the system. These are shown in Figure 11 - Figure 13.
 <p align = "center"
-   
-   ![Torque Output](https://user-images.githubusercontent.com/84546893/119296389-ae4fe380-bc0d-11eb-92c7-bd7319f963b1.PNG)
+
+Using MATLab, the team was able to create three more graphs to show the output torque, pole zero map, and root locus plot of the system. Each of these graphs can be seen in Figure 11 through Figure 13.
+ ![Torque Output`](https://user-images.githubusercontent.com/84546893/119296389-ae4fe380-bc0d-11eb-92c7-bd7319f963b1.PNG)
 </p>
 <p align = "center"
 
-**Figure 11.**
+**Figure 11.** Step Response of the Pendulum.
 </p>
 
 <p align = "center"
@@ -243,7 +244,7 @@ In MATLab, functions shown in Appendix A were used to solve for the outputed tor
 </p>
 <p align = "center"
 
-**Figure 12.**
+**Figure 12.** Pole Zero Map.
 </p>
 
 <p align = "center"
@@ -252,7 +253,7 @@ In MATLab, functions shown in Appendix A were used to solve for the outputed tor
 </p>
 <p align = "center"
 
-**Figure 13.**
+**Figure 13.** Root Locus Plot.
 </p>
 
 
